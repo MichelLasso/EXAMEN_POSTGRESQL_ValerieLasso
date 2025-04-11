@@ -143,3 +143,5 @@ insert into ventas(id_producto,stock_venta, id_cliente, total_venta,fecha_venta)
 values(5,1,15,30.00, '2025-02-07');
 insert into ventas(id_producto,stock_venta, id_cliente, total_venta,fecha_venta)
 values(6,1,8,400.50, '2025-02-08');
+insert into ventas(id_producto,stock_venta, id_cliente, total_venta,fecha_venta)
+values(6,1,8,400.50, '2024-08-08');

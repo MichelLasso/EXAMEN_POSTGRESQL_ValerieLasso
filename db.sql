@@ -25,9 +25,9 @@ create table productos(
 );
 
 create table ventas(
-	id serial primary key,
+	id serial primary key unique,
 	id_producto int not null,
-	stock_venta int not null,
+	stock_venta int check(stock_venta>0) not null,
 	id_cliente int not null,
 	total_venta double precision,
 	fecha_venta date not null,
